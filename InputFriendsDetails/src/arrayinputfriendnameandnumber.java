@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class arrayinputfriendnameandnumber {
 
+	private static Scanner s;
+
 	public static void main(String[] args) {
 		int length;
-		Scanner s=new Scanner(System.in);
+		s = new Scanner(System.in);
 		System.out.println("enter number of friends you want to add");
 		length=s.nextInt();
 		
