@@ -1,0 +1,12 @@
+
+<web-app >
+     <servlet>
+     <servlet-name>HelloServlet</servlet-name>
+     <servlet-class>lab8.HelloServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     <servlet-name>HelloServlet</servlet-name>
+     <url-pattern>/hello.jlc</url-pattern>
+     </servlet-mapping>
+</web-app>
